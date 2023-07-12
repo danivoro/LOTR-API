@@ -7,7 +7,6 @@ const { v4: uuid } = require("uuid");
 const app = express();
 
 app.get("/quote", (req, res) => {
-    const id = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
     const quotes = [
   "Short cuts make long delays. - Pippin",
   "The wise speak only of what they know. - Gandalf",
